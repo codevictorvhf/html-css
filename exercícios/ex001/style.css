@@ -1,0 +1,22 @@
+body {
+    background-color: /* Color Theme Swatches in Hex */
+    .Bed-1-hex { color: #F6ECE0; }
+    .Bed-2-hex { color: #E9E3D7; }
+    .Bed-3-hex { color: #F0E4D4; }
+    .Bed-4-hex { color: #E4D4C7; }
+    .Bed-5-hex { color: #D6CCC2; }
+    
+    /* Color Theme Swatches in RGBA */
+    .Bed-1-rgba { color: rgba(246, 236, 224, 1); }
+    .Bed-2-rgba { color: rgba(233, 227, 215, 1); }
+    .Bed-3-rgba { color: rgba(240, 228, 212, 1); }
+    .Bed-4-rgba { color: rgba(228, 212, 199, 1); }
+    .Bed-5-rgba { color: rgba(214, 204, 194, 1); }
+    
+    /* Color Theme Swatches in HSLA */
+    .Bed-1-hsla { color: hsla(32, 55, 92, 1); }
+    .Bed-2-hsla { color: hsla(39, 29, 87, 1); }
+    .Bed-3-hsla { color: hsla(34, 48, 88, 1); }
+    .Bed-4-hsla { color: hsla(26, 34, 83, 1); }
+    .Bed-5-hsla { color: hsla(30, 19, 80, 1); };"
+}

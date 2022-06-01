@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'gsw';
+  src: url(fonts/copperplate-becker-bold.ttf) format(truetype);
+}
+
+@font-face {
+  font-family: 'celtics';
+  src: url(fonts/CELTG___.TTF) format(truetype);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root {
+  --cor-principal1: rgb(255, 199, 44);
+  --cor-principal2: rgb(29, 66, 138);
+  --cor-celtics1: rgb(0, 122, 51);
+  --cor-celtics-gold: rgb(139, 111, 78);
+  --cor-celtics-brown: rgb(150, 56, 33);
+
+  --fonte-destaque: 'gsw';
+  --fonte-celtics: 'celtics';
+  --fonte-padrao: Arial, helvetica, sans-serif;
+  --fonte-enfeite: 'fredericka the great', cursive;
+  --fonte-subtitulo: 'Fredericka the Great', cursive;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: var(--cor-principal2);
+}
+
+header {
+  background-color: var(--cor-principal1);
+  font-family: var(--fonte-destaque);
+  max-height: 150px;
+  padding-top: 30px;
+}
+
+header h1 {
+  color: black;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.167);
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+header p {
+  max-width: 660px;
+  margin: auto;
+  text-align: center;
+  font-family: var(--fonte-enfeite);
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.167);
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+main {
+  background-color: var(--cor-principal2);
+  max-width: 800px;
+  margin: auto;
+}
+
+main h2 {
+  font-family: var(fonte-destaque);
+  font-weight: bold;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+main #gsw-campeao {
+  background-color: var(--cor-principal1);
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+main p {
+  line-height: 1.5em;
+  text-align: justify;
+  text-indent: 20px;
+  padding: 10px;
+}
+
+main #noticias {
+  background-color: var(--cor-principal1);
+  margin: 0px;
+  padding: 0px;
+  border-radius: 10px 0px 10px 0px;
+}
+
+main .titulo-detalhes {
+  text-align: left;
+  text-indent: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+
+main ul {
+  list-style-position: inside;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.jogo1-link {
+  list-style-type: '\1F3C0';
+}
+
+main a {
+  display: block;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+
+aside {
+  padding: 10px;
+}
+
+aside :hover {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.203), transparent);
+}
+
+aside p {
+  text-indent: 40px;
+  font-family: var(--fonte-enfeite);
+  font-style: italic;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 10px;
+}
+
+footer p {
+  background-color: var(--cor-principal1);
+  color: var(--cor-principal2);
+  padding: 2px;
+}
+
+footer :hover {
+  color: darkblue;
+  font-weight: bolder;
+}
+
+.parte1 {
+  text-align: center;
+}
+
+.parte2 {
+  text-align: center;
+}
+
+.parte3 {
+  text-align: center;
+}
