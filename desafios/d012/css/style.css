@@ -49,3 +49,10 @@ header a {
 header a:hover {
   text-decoration: underline;
 }
+
+section {
+  font-family: var(--fonte-texto);
+  font-size: 3.5vw;
+  padding-top: 10vh;
+  padding-left: 30px;
+}
