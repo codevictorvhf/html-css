@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Passion+One:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root {
+  --fonte-destaque: 'Passion One', cursive;
+  --fonte-texto: 'Sriracha', cursive;
+  --fonte-simples: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header h1 {
+  font-family: var(--fonte-destaque);
+  font-size: 10vw;
+  font-variant: small-caps;
+  padding-top: 50px;
+}
+
+header p {
+  color: white;
+  padding-bottom: 50px;
+  font-family: var(--fonte-simples);
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  font-family: var(--fonte-simples);
+}
+
+header a:hover {
+    text-decoration: underline;
+}
