@@ -6,10 +6,11 @@ body {
 
 table {
     width: 300px;
+    border-collapse: collapse;
 }
 
 td {
-    border: 0.7px solid black;
+    border: 0.6px solid black;
     padding: 10px;
     text-align: center;
 }
