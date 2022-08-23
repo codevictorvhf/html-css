@@ -20,17 +20,17 @@ header h1 {
   text-align: center;
 }
 
+menu ul {
+  list-style-type: none;
+  background-color: gray;
+}
+
 menu li {
   display: inline-block;
   background-color: rgb(75, 75, 75);
   color: white;
   font-weight: bold;
   padding: 10px;
-}
-
-menu ul {
-  list-style-type: none;
-  background-color: gray;
 }
 
 article {
