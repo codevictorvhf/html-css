@@ -13,6 +13,44 @@
 /* Impressão */
 
 @media print {
+  * {
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  main {
+    width: 90vw;
+    border: 2px solid black;
+  }
+
+  main h1 {
+    color: black;
+    text-shadow: none;
+  }
+
+  main::after {
+    content: 'Essa impressão foi feita através do cursoemvideo.com';
+    text-decoration: overline;
+  }
+
+  img#phone {
+    display: none;
+  }
+
+  img#tablet {
+    display: none;
+  }
+
+  img#print {
+    display: block;
+  }
+
+  img#pc {
+    display: none;
+  }
+
+  img#tv {
+    display: none;
+  }
 }
 
 /* Tablet */
@@ -75,6 +113,10 @@
 @media screen and (min-width: 1200px) {
   body {
     background-image: url('../imagens/back-tv.jpg');
+  }
+
+  main {
+    width: 600px;
   }
 
   img#phone {
