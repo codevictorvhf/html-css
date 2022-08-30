@@ -21,6 +21,11 @@ article {
   width: 100%;
 }
 
+article p {
+  text-align: justify;
+  text-indent: 20px;
+}
+
 article::after {
   content: 'Esse artigo foi impresso através do site www.cursoemvideo.com/noticias';
   font-size: 0.8em;
