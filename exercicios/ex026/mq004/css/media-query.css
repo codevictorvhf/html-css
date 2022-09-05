@@ -11,7 +11,6 @@
 */
 
 /* Impressão */
-
 @media print {
   * {
     font-family: 'Courier New', Courier, monospace;
@@ -81,7 +80,6 @@
 }
 
 /* Desktop */
-
 @media screen and (min-width: 992px) and (max-width: 1200px) {
   body {
     background-image: url('../imagens/back-pc.jpg');
