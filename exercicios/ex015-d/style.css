@@ -20,7 +20,7 @@ main {
   background-color: white;
   width: 600px;
   margin: auto;
-  box-shadow: 5px 5px 15px rgba(17, 47, 106, 0.377);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.324);
   border-radius: 10px;
   padding: 5px;
 }
@@ -63,6 +63,7 @@ p {
   color: white;
   background-color: rgb(29, 66, 138);
   font-family: Arial, Helvetica, sans-serif;
+  padding: 3px;
 }
 
 .texto2 {
@@ -71,9 +72,12 @@ p {
 
 .texto3 {
   text-align: left;
+  padding: 10px;
 }
 
-div > p::before { 
+/* O span é para dar espaço entre a seta e o texto */
+
+span::before { 
   content: '➣';
 }
 
